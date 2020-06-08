@@ -26,10 +26,10 @@
 - **STEP 4** when muluple user will come into range, those pairs who are having center-to-center distance <= `Threshold distance` (ex: 6 feet) will store that value in local database (ex: SQLite)
 
     For each user, each day app will store one image to minimize the data stored in device. The general format is as follows
-    | contacted_with | date | min_dustance | max_distance | avg_distance | time_pattern |
-    | :---: | :---: | :---: | :---: | :---: | :---: |
-    | 222333 | 08-06-2020 | 0.6 | 2.8 | 1.5 | 000000000101100000000000 |
-    | 222333 | 07-06-2020 | 0.9 | 3.5 | 2.7 | 000000000111100000000000 |
+    | contacted_with | date | min_dustance | max_distance | avg_distance | time_pattern | total_images |
+    | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+    | 222333 | 08-06-2020 | 0.6 | 2.8 | 1.5 | 000000000101100000000000 | 22 |
+    | 222333 | 07-06-2020 | 0.9 | 3.5 | 2.7 | 000000000111100000000000 | 15 |
 
     ```
     contacted_with: staff ID with whom contacted
