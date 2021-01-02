@@ -12,7 +12,7 @@
 - Android
 
 #### How does it work:
-- **STEP 1** When the user will launch the app, user will be prompted with authentication pahe. User needs to put MSIL `Staff ID` and `Password`. It will be varified againest MSIL `User Authentication` APIS.
+- **STEP 1** When the user will launch the app, user will be prompted with authentication pahe. User needs to put `Staff ID` and `Password`. It will be varified againest `User Authentication` APIS.
 - **STEP 2** After user is authenticated, app will communicate to a central server. It will ask for a `UUID`. Server will create an unique `UUID` and will assign it with that `staff ID`.
 
 - **STEP 3** Now that user have `Staff ID` and `UUID`, she/he will start Bluettoth Low Energy transmission.
