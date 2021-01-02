@@ -1,4 +1,4 @@
-## MSIL Contact Tracing Mobile Application
+## Contact Tracing Mobile Application
 
 #### This application will serve 3 purposes
 - It will notify users as soon as they come into contact where the center-to-center distance id <= `Threshold distance` (ex: 6 feet)
